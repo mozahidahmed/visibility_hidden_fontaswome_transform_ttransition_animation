@@ -1,0 +1,237 @@
+.box{
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    
+    
+    }
+    #box1{
+    
+    background-color: blue;
+    
+    }
+    
+    #box2{
+    
+        background-color:red;
+      
+        }
+        
+    #box3{
+    
+        background-color: rgb(110, 110, 141);
+        visibility: hidden;
+        }
+        
+    #box4{
+    
+        background-color: rgb(101, 101, 238);
+        
+        }
+    
+    
+    
+    
+    /*---start scroll---*/
+        .mega1{
+    
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    padding: 20px;
+    overflow: scroll;
+    text-align: justify;
+        }
+    
+    
+        
+        .mega2{
+    
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            padding: 20px;
+            overflow: hidden;
+            overflow: scroll;
+            text-align: justify;
+    
+                }
+    
+    
+    /*--sart paragrap hiden--*/
+    
+    
+    .parascroll{
+    
+    width: 100px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    }
+    
+    .mozapara{
+    
+    white-space: nowrap;
+    
+    }
+    
+    /*--sart paragrap hiden--*/
+    
+    /*----ecroll end--*/
+    
+    
+    /*------start icon--*/
+    
+    
+    .fas{
+    
+    font-size: 30px;
+    
+    
+    }
+    
+    /*------end icon-*/
+    
+    
+    
+    
+    /*------start taransform*/
+    
+    .container{
+    
+    width: 300px;
+    height: 200px;
+    background-color: darkblue;
+    
+    }
+    
+    .moza{
+    
+    
+        width: 100px;
+        height: 100px;
+        background-color: darkred;
+        transform: translate(100px,60px);
+    
+    }
+    
+    /*------end taransform*/
+    
+    
+    
+    
+    
+    
+    
+    /*-tranjition start--*/
+    
+    .container2{
+    
+    margin-top: 10px;
+        width: 300px;
+        height: 200px;
+        background-color: red;
+        transition: width 10s linear 4s,height 30s,transform 3s;
+    
+    
+    }
+    
+    .container2:hover{
+    
+     width: 100px; 
+    height: 100px;
+    transform: rotate(100deg);
+    }
+    
+    
+    /*-tranjition End--*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*animaion start------*/
+    @keyframes sliding{
+    0%{
+    
+    background-color: chartreuse;
+    left: 0px;
+    top:0px
+    }
+    
+    
+    25%{
+    
+    top: 130px;
+    
+    }
+    
+    50%{
+     top:0px
+    }
+    
+    75%{
+    top:130px
+    
+    }
+    
+    100%{
+    
+    background-color: cyan;
+    left: 400px;
+    top:0px
+    }
+    }
+    
+    
+    
+    
+    .animation{
+    
+    
+        margin-top: 10px;
+        width: 500px;
+        height: 200px;
+        background-color: red;
+    /*--transiittion:<property(width)><dration(oto secend ar lagi)><timing-function(koto taratari colbe)><delay (1 second por)>*/
+    
+    
+    
+    
+    }
+    
+    .ball{
+    
+        width: 70px;
+        height: 70px;
+        position: relative;
+        background-color: rgb(26, 11, 11);
+        border-radius: 60px;
+        animation: sliding 1s ease-in 0.5s infinite ;
+    /*----(name) (duration(kotokon animation colbe) (timing function(taratari nai derite) (delay(kotkon pore) (iteration-count(koybar colbe) (direction(kondike jabe)) (fill-mpde)*/
+    
+    
+    
+    }
+    /*----------animation end-------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
